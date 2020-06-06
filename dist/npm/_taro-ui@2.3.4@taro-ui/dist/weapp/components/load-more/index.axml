@@ -1,0 +1,16 @@
+<block a:if="{{$taroCompReady}}">
+    <view class="{{anonymousState__temp2}}" style="{{anonymousState__temp3}}">
+        <block>
+            <block a:if="{{status === 'loading'}}">
+                <at-activity-indicator compid="{{$compid__24}}"></at-activity-indicator>
+            </block>
+            <block a:elif="{{status === 'more'}}">
+                <view class="at-load-more__cnt">
+                    <at-button compid="{{$compid__25}}">{{moreText}}</at-button>
+                </view>
+            </block>
+            <block a:else><text class="at-load-more__tip" style="{{_$anonymousState__temp}}">{{noMoreText}}</text>
+            </block>
+        </block>
+    </view>
+</block>

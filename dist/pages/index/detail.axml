@@ -1,0 +1,12 @@
+<block a:if="{{$taroCompReady}}">
+    <view class="index">
+        <at-list-item compid="{{$compid__16}}"></at-list-item>
+        <at-list-item compid="{{$compid__17}}"></at-list-item>
+        <at-list-item compid="{{$compid__18}}"></at-list-item>
+        <at-list-item compid="{{$compid__19}}"></at-list-item>
+        <at-list-item compid="{{$compid__20}}"></at-list-item>
+        <at-list-item compid="{{$compid__21}}"></at-list-item>
+        <at-list-item compid="{{$compid__22}}"></at-list-item>
+        <at-list-item compid="{{$compid__23}}"></at-list-item>
+    </view>
+</block>

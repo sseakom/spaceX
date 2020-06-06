@@ -1,0 +1,9 @@
+<block a:if="{{$taroCompReady}}">
+    <view class="{{rootClass}}">
+        <view class="at-activity-indicator__body">
+            <at-loading compid="{{$compid__26}}"></at-loading>
+        </view>
+        <block a:if="{{content}}"><text class="at-activity-indicator__content">{{content}}</text>
+        </block>
+    </view>
+</block>

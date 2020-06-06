@@ -1,0 +1,8 @@
+<block a:if="{{$taroCompReady}}">
+    <view class="index">
+        <at-list>
+            <at-list-item a:for="{{loopArray1}}" a:for-item="item" a:for-index="__index0" compid="{{item.$compid__14}}"></at-list-item>
+        </at-list>
+        <at-load-more compid="{{$compid__15}}"></at-load-more>
+    </view>
+</block>

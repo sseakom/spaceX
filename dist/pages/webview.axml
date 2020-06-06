@@ -1,0 +1,3 @@
+<block a:if="{{$taroCompReady}}">
+    <web-view src="{{src}}" onMessage="handleMessage"></web-view>
+</block>
